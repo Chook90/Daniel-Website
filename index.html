@@ -7,73 +7,185 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <nav class="main-nav">
-        <ul>
-            <li><a href="index.html" class="active">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="information.html">Information</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <nav class="main-nav">
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
 
-    <main class="home-page">
-        <div class="hero-section">
-            <div class="hero-content">
-                <h1 class="site-title">Welcome to Opaline</h1>
-                <p class="site-subtitle">Spiritual guidance facilitator - Aeva</p>
+        <div class="page-layout">
+            <!-- Services Sidebar -->
+            <aside class="services-sidebar">
+                <h2>SERVICES</h2>
+                <ul class="services-list">
+                    <li>
+                        <a href="#spiritual-guidance">
+                            <span class="service-number">001 //</span>
+                            Spiritual Guidance
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#mindfulness">
+                            <span class="service-number">002 //</span>
+                            Mindfulness Training
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#life-purpose">
+                            <span class="service-number">003 //</span>
+                            Life Purpose Discovery
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#energy-healing">
+                            <span class="service-number">004 //</span>
+                            Energy Healing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#spiritual-counseling">
+                            <span class="service-number">005 //</span>
+                            Spiritual Counseling
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#chakra-balancing">
+                            <span class="service-number">006 //</span>
+                            Chakra Balancing
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#holistic-wellbeing">
+                            <span class="service-number">007 //</span>
+                            Holistic Well-Being
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#intuitive-development">
+                            <span class="service-number">008 //</span>
+                            Intuitive Development
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#spiritual-retreats">
+                            <span class="service-number">009 //</span>
+                            Spiritual Retreats
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="main-content">
+                <div class="hero-content">
+                    <!-- Image placeholder for landing page graphic -->
+                    <div class="image-placeholder">
+                        [Landing page image with graphics/symbols will go here]
+                    </div>
+                    
+                    <h1 class="site-title">Welcome to Opaline</h1>
+                    <p class="site-subtitle">Spiritual guidance facilitator - Aeva</p>
+                    
+                    <div class="spiritual-symbols">
+                        <div class="symbol-item">
+                            <div class="symbol-circle">
+                                <svg viewBox="0 0 100 100" class="mind-symbol">
+                                    <circle cx="50" cy="30" r="15" fill="none" stroke="currentColor" stroke-width="1"/>
+                                    <path d="M 35 35 Q 50 50 65 35" fill="none" stroke="currentColor" stroke-width="1"/>
+                                    <circle cx="50" cy="50" r="8" fill="none" stroke="currentColor" stroke-width="1"/>
+                                </svg>
+                            </div>
+                            <span class="symbol-label">MIND</span>
+                        </div>
+                        
+                        <div class="symbol-item">
+                            <div class="symbol-circle">
+                                <svg viewBox="0 0 100 100" class="body-symbol">
+                                    <circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="1"/>
+                                    <circle cx="50" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="1"/>
+                                    <circle cx="50" cy="50" r="5" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            <span class="symbol-label">BODY</span>
+                        </div>
+                        
+                        <div class="symbol-item">
+                            <div class="symbol-circle">
+                                <svg viewBox="0 0 100 100" class="spirit-symbol">
+                                    <path d="M 50 20 L 30 60 L 70 60 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+                                    <path d="M 50 70 L 30 30 L 70 30 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+                                </svg>
+                            </div>
+                            <span class="symbol-label">SPIRIT</span>
+                        </div>
+                    </div>
+                </div>
+
+                <section class="intro-section">
+                    <h2>Your Journey of Transformation</h2>
+                    <p>Welcome, beloved soul. You've found your way here, and that's no coincidence. Whether you're navigating a spiritual awakening, seeking clarity through life's transitions, or feeling called to something deeper, you're exactly where you need to be.</p>
+                    <p>I offer compassionate guidance and sacred space for your journey of self-discovery and divine transformation. Together, we'll explore the wisdom already within you, helping you embrace your authentic self with love and acceptance.</p>
+                    
+                    <div class="cta-buttons">
+                        <a href="services.html" class="btn-primary">Explore Services</a>
+                        <a href="about.html" class="btn-secondary">Learn About Me</a>
+                    </div>
+                </section>
+            </main>
+
+            <!-- About Sidebar -->
+            <aside class="about-sidebar">
+                <h3>EGO & INTUITION</h3>
                 
-                <div class="spiritual-symbols">
-                    <div class="symbol-item">
-                        <div class="symbol-circle">
-                            <svg viewBox="0 0 100 100" class="mind-symbol">
-                                <circle cx="50" cy="30" r="15" fill="none" stroke="currentColor" stroke-width="1"/>
-                                <path d="M 35 35 Q 50 50 65 35" fill="none" stroke="currentColor" stroke-width="1"/>
-                                <circle cx="50" cy="50" r="8" fill="none" stroke="currentColor" stroke-width="1"/>
-                            </svg>
-                        </div>
-                        <span class="symbol-label">MIND</span>
+                <!-- Placeholder for ego/intuition graphics -->
+                <div class="image-placeholder" style="height: 200px;">
+                    [Ego & Intuition diagram will go here]
+                </div>
+                
+                <div class="ego-intuition-section">
+                    <div class="ego-box">
+                        <h4>EGO</h4>
+                        <p style="font-size: 0.85rem;">Based on fear and scarcity</p>
                     </div>
-                    
-                    <div class="symbol-item">
-                        <div class="symbol-circle">
-                            <svg viewBox="0 0 100 100" class="body-symbol">
-                                <circle cx="50" cy="50" r="20" fill="none" stroke="currentColor" stroke-width="1"/>
-                                <circle cx="50" cy="50" r="10" fill="none" stroke="currentColor" stroke-width="1"/>
-                                <circle cx="50" cy="50" r="5" fill="currentColor"/>
-                            </svg>
-                        </div>
-                        <span class="symbol-label">BODY</span>
-                    </div>
-                    
-                    <div class="symbol-item">
-                        <div class="symbol-circle">
-                            <svg viewBox="0 0 100 100" class="spirit-symbol">
-                                <path d="M 50 20 L 30 60 L 70 60 Z" fill="none" stroke="currentColor" stroke-width="1"/>
-                                <path d="M 50 70 L 30 30 L 70 30 Z" fill="none" stroke="currentColor" stroke-width="1"/>
-                            </svg>
-                        </div>
-                        <span class="symbol-label">SPIRIT</span>
+                    <div class="intuition-box">
+                        <h4>INTUITION</h4>
+                        <p style="font-size: 0.85rem;">Rooted in inner wisdom</p>
                     </div>
                 </div>
-            </div>
+                
+                <div style="margin-top: 2rem;">
+                    <p style="font-size: 0.85rem; text-align: center; color: var(--text-muted);">
+                        Seeks eternal validation<br>
+                        Indecisive and doubtful<br>
+                        Resistance to Change<br>
+                        Doubt and Confusion<br>
+                        Self-Centered
+                    </p>
+                </div>
+                
+                <div style="margin-top: 2rem;">
+                    <p style="font-size: 0.85rem; text-align: center; color: var(--text-muted);">
+                        Trusts inner guidance<br>
+                        Openness and acceptance<br>
+                        Adaptable and Flowing<br>
+                        Clarity and Certainty<br>
+                        Aligned with Higher Purpose
+                    </p>
+                </div>
+            </aside>
         </div>
-
-        <section class="intro-section">
-            <div class="content-card">
-                <h2>Your Journey of Transformation</h2>
-                <p>Welcome, beloved soul. You've found your way here, and that's no coincidence. Whether you're navigating a spiritual awakening, seeking clarity through life's transitions, or feeling called to something deeper, you're exactly where you need to be.</p>
-                <p>I offer compassionate guidance and sacred space for your journey of self-discovery and divine transformation. Together, we'll explore the wisdom already within you, helping you embrace your authentic self with love and acceptance.</p>
-                <div class="cta-buttons">
-                    <a href="services.html" class="btn-primary">Explore Services</a>
-                    <a href="about.html" class="btn-secondary">Learn About Me</a>
-                </div>
-            </div>
-        </section>
-    </main>
+    </div>
 
     <footer class="site-footer">
         <p>&copy; 2025 Opaline Spirituality. Walking alongside you with love and wisdom.</p>
     </footer>
+    
+    <script src="js/main.js"></script>
 </body>
 </html>
+
